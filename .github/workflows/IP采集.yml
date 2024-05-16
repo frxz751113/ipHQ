@@ -3,7 +3,7 @@ name: 组播ip采集
 
 on:
   schedule:
-    - cron: '47,22,8 * * *'        #这里更改自动运行的时间，没这两行的话只能手动运行
+  - cron: 9 23,8 * * *     #这里更改自动运行的时间，没这两行的话只能手动运行
   workflow_dispatch:
     分支:
       - main
