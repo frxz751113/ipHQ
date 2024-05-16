@@ -1,7 +1,7 @@
 name: 频道合并归类
 on:
   schedule:
-    - cron: '16 */18 * * *'        #这里更改自动运行的时间，没这两行的话只能手动运行
+  - cron: '58 22,3,8,16 * * *'  #北京时间在基础上加8
   workflow_dispatch:
     分支:
       - main
