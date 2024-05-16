@@ -2,7 +2,7 @@ name: ip check-auto
 
 on:
   schedule:
-  - cron: '30 22,3,8,16 * * *'  #北京时间在基础上加8
+  - cron: '30 22,3,8,16 * * *'  # 6:30 11:30 16:30 0:30 &&&
   workflow_dispatch:
     分支:
       - main
