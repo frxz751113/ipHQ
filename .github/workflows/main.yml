@@ -1,4 +1,4 @@
-name: 组播ip采集auto
+name: ip check-auto
 
 on:
   schedule:
